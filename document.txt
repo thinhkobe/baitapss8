@@ -1,0 +1,39 @@
+ có 2 cách đê nhúng JS vào trong HTML
+ + Cách 1: viết code JS bên tron cặp thẻ script được đặt bên trong của thẻ body
+ + Cách 2: tạo ra 1 file có đuôi  .js và sau đó nhúng nó vào thuộc tính src của thẻ script được đặt bên trên thẻ đóng
+        của thẻ body
+=> File .js được đặt cuối file vì khi ứng dụng được chạy thì chúng ta sẽ ưu tiên về mặt hiển thị trước
+    và hiển thị dữ liệu sau.
+// Khai báo biến :
++ Biến là nơi lưu trữ dữ liệu trng bộ nhớ.ví dụ "nguyễn văn a",1,2...
++Cú pháp: tu_khoa ten_bien = gia tri
++tên biến phải viết bằng tiếng anh , không có kí tự đắc biệt (*,%,...) viết theo cammel case , và phải có ý nghĩa 
+
++ Dấu "=" là một toán tử gán
+"Giá trị: địa chỉ,tuổi , cân nặng..."
+
+
+//từ khóa khai báo biến:
+    +var
+    +let
+
+//kiểu dữ liệu
+    +Chuỗi(string):"Nguyễn van a","hà nội"->dữ liệu dạn này sẽ được bọc bên trong dấu " hoặc '
+        Ví dụ var userName = "nguyễn văn A";
+    +number(số):1,2,3,...
+        ví dụ : var age = 21;
+    + boolean : Dạng đúng sai(true và false)
+        ví dụ 
+
+// sự khác nhau giữa toán tử == và === 
++ toán tử == chỉ so sánh vef mặt giá trị k ss về kiểu dữ liệu
++ toán tử === ss cả về giá trị và kiểu dữ liệu
+
+// >= : Lớn hơn hoặc bằng 1 >= 1 ||
+//<= : Bé hơn hoặc bằng 
+
+Toán tử logic
++&& :Nó nhận giá trị true khi tất cả giá trị đều thỏa mãn
++|| : nó nhận được giá trị true khi một hoặc nhiều điều kiện thỏa mãn
++ ! : phủ định lại giá trị boolean (true hoặc false)
++!= : so sánh các giá trị với nhau (a khác b thì ta viết a !)
